@@ -1,0 +1,1065 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    line-height: normal;
+}
+
+.main-container {
+    max-width: 1366px;
+    margin: 0 auto;
+    height: 3170px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar-section {
+    width: 100%;
+    height: 768px;
+    flex-shrink: 0;
+}
+
+.navbar-rectangle-bg-parent {
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+}
+
+.navbar-rectangle-bg {
+    width: 100%;
+    height: 768px;
+    flex-shrink: 0;
+
+}
+
+.menu-bar {
+    width: 1134px;
+    height: 59px;
+    flex-shrink: 0;
+}
+
+.logo {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    position: absolute;
+    top: 42px;
+}
+
+.menu-items {
+    width: 534px;
+    height: 59px;
+    flex-shrink: 0;
+    display: flex;
+    gap: 60px;
+    position: absolute;
+    top: 60px;
+    right: 331px;
+}
+
+.about {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-enrol {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 24px;
+    border-style: none;
+    background: #023047;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 42px;
+    right: 116px;
+}
+
+.heading-one {
+    width: 457px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 125%;
+    position: absolute;
+    top: 219px;
+    left: 116px;
+}
+
+.heading-two {
+    width: 457px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    position: absolute;
+    top: 363px;
+    left: 116px;
+}
+
+.btn-two {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    border-style: none;
+    background: #DA722C;
+    position: absolute;
+    top: 489px;
+    left: 116px;
+}
+
+.pencil-alt {
+    width: 18px;
+    height: 18px;
+}
+
+.enrol-now {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-image {
+    width: 446px;
+    height: 582px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 186px;
+    left: 841px;
+}
+
+.achievements {
+    width: 213px;
+    height: 98px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 323px;
+    left: 623px;
+}
+
+.rectangle-eleven {
+    width: 206px;
+    height: 97px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: linear-gradient(180deg, #6F7DFB 0%, #3B448F 100%);
+    position: absolute;
+    top: 1px;
+    left: 7px;
+}
+
+.rectangle-ten {
+    width: 206px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #FFF;
+    position: absolute;
+    left: 7px;
+    bottom: 8px;
+}
+
+.text-one {
+    color: #023047;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    position: absolute;
+    top: 7px;
+    left: 69px;
+}
+
+.students {
+    color: #023047;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    position: absolute;
+    top: 52px;
+    left: 33px;
+}
+
+.group-one {
+    width: 188px;
+    height: 98px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 562px;
+    left: 589px;
+}
+
+.scnd-rectangle-eleven {
+    width: 185px;
+    height: 95px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: linear-gradient(180deg, #6F7DFB 0%, #3B448F 100%);
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+.scnd-rectangle-ten {
+    width: 183px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #FFF;
+    position: absolute;
+    right: 5px;
+    bottom: 8px;
+}
+
+.text-two {
+    color: #023047;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    position: absolute;
+    top: 9px;
+    left: 44px;
+}
+
+.over-all {
+    color: #023047;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    position: absolute;
+    top: 54px;
+    left: 41px;
+}
+
+.emojione_star {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 9px;
+    left: 102px;
+}
+
+.testimonials-section {
+    width: 1135px;
+    height: 546px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 868px;
+    left: 116px;
+}
+
+.testimonials-left {
+    width: 474px;
+    height: 546px;
+    flex-shrink: 0;
+    position: absolute;
+    right: 661px;
+}
+
+.testi-first-rctangle-twelve {
+    width: 28px;
+    height: 546px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #023047;
+    position: absolute;
+    left: 87px;
+}
+
+.first-testimoinals {
+    display: flex;
+    width: 442px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.20);
+    position: absolute;
+    top: 35px;
+}
+
+.first-testimoinals-content {
+    display: flex;
+    padding: 24px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 24px;
+    background: #6F7DFB;
+}
+
+.great-thankyou {
+    flex: 1 0 0;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+.name-and-image {
+    display: flex;
+    padding: 0px 32px;
+    align-items: center;
+    gap: 106px;
+    align-self: stretch;
+}
+
+.testi-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.jane-cooper {
+    color: #023047;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    position: absolute;
+    top: 132.5px;
+    left: 32px;
+}
+
+.sony {
+    color: #023047;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    position: absolute;
+    top: 169.5px;
+    left: 32px;
+}
+
+.testi-img {
+    display: flex;
+    height: 120px;
+    padding-bottom: 24px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ellipse-jane {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 120px;
+    position: absolute;
+    top: 90px;
+    left: 290px;
+}
+
+.second-testimoinals {
+    display: flex;
+    width: 442px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.20);
+    position: absolute;
+    top: 307px;
+    left: 32px;
+}
+
+.second-testimoinals-content {
+    width: 442px;
+    display: flex;
+    padding: 24px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 24px;
+    background: #DA722C;
+}
+
+.amazing-work {
+    flex: 1 0 0;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+.scnd-name-and-image {
+    display: flex;
+    padding: 0px 32px;
+    align-items: center;
+    gap: 106px;
+    align-self: stretch;
+}
+
+.scnd-testi-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.jacob-jones {
+    color: #023047;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    position: absolute;
+    top: 105.5px;
+    left: 32px;
+}
+
+.designer {
+    color: #023047;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    position: absolute;
+    top: 142.5px;
+    left: 32px;
+}
+
+.scndd-testi-img {
+    display: flex;
+    height: 120px;
+    padding-bottom: 24px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ellipse-jacob {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 120px;
+    position: absolute;
+    top: 63px;
+    left: 290px;
+}
+
+.testimoinals-right {
+    width: 559px;
+    height: 377px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 85px;
+    left: 576px;
+}
+
+.heading-testi {
+    display: flex;
+    width: 559px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.studentss {
+    flex: 1 0 0;
+    color: #023047;
+    font-family: Raleway;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.all-students {
+    width: 558px;
+    color: #023047;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    position: absolute;
+    top: 160px;
+    left: 1px;
+}
+
+.learn-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 24px;
+    border-style: none;
+    background: #DA722C;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 318px;
+    left: 0;
+}
+
+.courses-section {
+    width: 1366px;
+    height: 785px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 1514px;
+}
+
+.courses-rectangle-nine {
+    width: 1366px;
+    height: 785px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+}
+
+.heading-courses {
+    display: flex;
+    width: 524px;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 70px;
+    left: 421px;
+}
+
+.our-courses {
+    flex: 1 0 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.courses-one {
+    display: flex;
+    width: 526px;
+    height: 418px;
+    padding: 0px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    border-radius: 24px;
+    background: #FFF;
+    position: absolute;
+    top: 198px;
+    left: 126px;
+}
+
+.cartoon-img {
+    height: 260px;
+    align-self: stretch;
+    border-radius: 24px;
+    position: absolute;
+    bottom: 158px;
+    left: 32px;
+}
+
+.tittle-and-duration {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    position: absolute;
+    top: 290px;
+    left: 42px;
+}
+
+.game-design {
+    flex: 1 0 0;
+    color: #023047;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+.frame-one {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    left: 390PX;
+    top: 63px;
+    white-space: nowrap;
+}
+
+.clock {
+    width: 20px;
+    height: 20px;
+}
+
+.hrs {
+    color: #023047;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+.courses-rectangle-eight {
+    width: 462px;
+    height: 8px;
+    align-self: stretch;
+    border-radius: 24px;
+    background: #023047;
+    position: absolute;
+    bottom: 0;
+}
+
+.courses-two {
+    display: flex;
+    width: 526px;
+    height: 418px;
+    padding: 0px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    border-radius: 24px;
+    background: #FFF;
+    position: absolute;
+    top: 198px;
+    left: 725px;
+}
+
+.frame-two {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    left: 415px;
+    bottom: 63px;
+}
+
+.game-unity {
+    flex: 1 0 0;
+    color: #023047;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    margin-top: 30px;
+}
+
+.all-courses {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 24px;
+    border-style: none;
+    background: #DA722C;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 656px;
+    left: 1083px;
+}
+
+.app-section {
+    width: 1070px;
+    height: 262px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 2399px;
+    left: 148px;
+}
+
+.heading-app {
+    display: flex;
+    width: 680px;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    left: 195px;
+}
+
+.get-our-app {
+    flex: 1 0 0;
+    color: #023047;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.smartphone {
+    width: 1070px;
+    color: #023047;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    display: grid;
+    position: absolute;
+    top: 85px;
+}
+
+.frame-three {
+    display: flex;
+    width: 310px;
+    padding: 20px 31px;
+    align-items: center;
+    gap: 14px;
+    background-color: #000;
+    position: absolute;
+    top: 162px;
+    left: 210px;
+}
+
+.frame-3-vector {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.app-store {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.frame-four {
+    display: flex;
+    width: 310px;
+    padding: 20px 31px;
+    align-items: center;
+    gap: 14px;
+    background-color: #000;
+    position: absolute;
+    top: 162px;
+    left: 550px;
+}
+
+.frame-4-vector {
+    width: 55.713px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.google-play {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.footer {
+    width: 1366px;
+    height: 409px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 2761px;
+}
+
+.footer-rectangle-thirteen {
+    width: 1366px;
+    height: 409px;
+    flex-shrink: 0;
+    background: #070917;
+}
+
+.footer-links-one {
+    width: 179px;
+    height: 205px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 70px;
+    left: 116px;
+}
+
+.quick-links {
+    color: #DA722C;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer-about {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    position: absolute;
+    top: 50px;
+    left: 24px;
+}
+
+.contact {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    position: absolute;
+    top: 91px;
+    left: 23px;
+}
+
+.privacy {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    position: absolute;
+    top: 132px;
+    left: 23px;
+}
+
+.terms {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    position: absolute;
+    top: 173px;
+    left: 23px;
+}
+
+.footer-links-two {
+    width: 112px;
+    height: 164px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 70px;
+    left: 427px;
+}
+
+.courses-link {
+    color: #DA722C;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.log-link {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    position: absolute;
+    top: 50px;
+    left: 24px;
+}
+
+.download-link {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    position: absolute;
+    top: 91px;
+    left: 23px;
+}
+
+.all-courses-link {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    position: absolute;
+    top: 132px;
+    left: 23px;
+}
+
+.gt-coding {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    position: absolute;
+    top: 307px;
+    left: 116px;
+}
+
+.last-group-nine {
+    width: 545px;
+    height: 187px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 70px;
+    left: 671px;
+}
+
+.grp-contact {
+    color: #DA722C;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact-email {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    position: absolute;
+    top: 50px;
+    left: 24px;
+}
+
+.fb-vector {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    fill: #FFF;
+    position: absolute;
+    top: 98px;
+    left: 24px;
+}
+
+.insta-vector {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    fill: #FFF;
+    position: absolute;
+    top: 98px;
+    left: 76px;
+}
+
+.rectangle-fourteen {
+    width: 521px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    position: absolute;
+    top: 148px;
+    left: 24px;
+}
+
+.email-address {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    opacity: 0.5;
+    position: absolute;
+    top: 152px;
+    left: 51px;
+}
+
+.rectangle-fifteen {
+    width: 135px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #023047;
+    position: absolute;
+    top: 153px;
+    left: 404px;
+}
+
+.subscribe {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    position: absolute;
+    top: 152px;
+    left: 432px;
+}
